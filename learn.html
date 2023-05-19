@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>CREATIVE PHOTOGRAPHY</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+			    <i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="learn.html">LEARN</a></li>
+					<li><a href="">BLOG</a></li>
+					<li><a href="">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+    <h1>Learn More About Photography</h1>
+
+</section>
+
+<!---------------- learn -------------------> 
+<section class="learn">
+    <p>Many people who want to learn photography don't know where to start. Without a bit of background knowledge, it's hard to understand all the photography related terms and concepts, and that can slow your learning curve. With some exploration of articles, tutorials, videos, and hands-on shooting, you'll soon have a solid grasp of the basics of photography.</p>
+    <div class="learn-col">
+        <h3>Why Learn about Photography?</h3>
+        <p>In the advent of more affordable digital cameras with impressive specs, not to mention social media and photo-sharing apps, the current generation has inevitably developed a liking for taking and appreciating pictures. And for some people, it inspires them to really practice the art and invest time in developing serious photography skills, and get started on their journey of beginner photography.</p>
+    </div>
+    <div class="learn-col">
+        <h3>Learn the Basic Camera Terminology</h3>
+        <p>When it comes to learning basic camera terminology, it all starts with the parts of a camera and the shutter speed, aperture, and focal length. As you go along, it helps to understand how the exposure triangle works, too, so that you can gain a much better understanding of how cameras work. In turn, you should have an easier time understanding your own gear. But let’s now break down those three crucial terms</p>
+</div>
+    <div class="row">
+        <div class="learn-col">
+            <h3>Aperture</h3>
+            <p>Aperture refers to the opening in the lens that allows light<br> into the camera body.  Settings of the aperture are referred to as f/stop (aka f-stop). A larger aperture, or wider opening, has a smaller f/stop number. A smaller aperture, or a narrower opening,  has a larger f/stop number.</p>
+        </div>
+        <div class="learn-col">
+            <h3>Shutter/Speed + ISO</h3>
+            <p>Shutter speed refers to the amount of time the shutter <br>remains open. It matters because the longer the shutter is open, <br>the more light is allowed into the camera. Shutter speed is measured in whole seconds or fractions of seconds. ISO refers to the sensitivity of the camera’s sensor to light.</p>
+        </div>
+        <div class="learn-col">
+            <h3>Learn about Focal Length: Prime vs Zoom Lenses</h3>
+            <p>Focal length is a measurement used to describe different lenses <br>and their capabilities in terms of angle of view and distance. Wide angle lenses have shorter focal lengths like 8mm or 22mm. Telephoto lenses have longer focal lengths like 600mm, and can bring far away objects into view. A zoom lens is capable of multiple focal lengths, while a prime lens features a single constant focal length.</p>
+        </div>
+    </div>
+ </section>  
+
+<!-- footer -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>If you want to see more about my photography.<br> And you can also mesaage me in those social media accounts.</p>
+    <div class="icons">
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-instagram" ></i>
+        <i class="fa fa-linkedin" ></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Kaila Moreno</p>
+</section>
+
+<!------------- JavaScript for Toggle Menu -------------->
+	<script>
+	    
+	    var navLinks = document.getElementById("navLinks");
+	    function showMenu(){
+	        navLinks.style.right = "0";
+	    }
+	    function hideMenu(){
+	        navLinks.style.right = "-200px";
+	    }
+	    
+	</script>
+</body>
+</html>
